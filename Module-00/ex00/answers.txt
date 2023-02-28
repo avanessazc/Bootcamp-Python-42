@@ -1,0 +1,16 @@
+Find the commands to:
+• Output a list of installed packages and their versions.
+    R/  pip list # https://www.activestate.com/resources/quick-reads/how-to-list-installed-python-packages/
+        conda list # https://docs.conda.io/projects/conda/en/latest/commands/list.html
+• Show the package metadata of numpy.
+    R/  pip show <package>
+    src: https://pip.pypa.io/en/stable/cli/pip_show/
+• Remove the package numpy.
+    R/  pip uninstall <package>
+    src: https://pip.pypa.io/en/stable/cli/pip_uninstall/
+• (Re)install the package numpy.
+    R/  pip install <package>
+    src: https://pip.pypa.io/en/stable/cli/pip_install/
+• Freeze your python packages and their versions in a requirements.txt file you have to turn-in.
+    R/  pip freeze > requirements.txt
+        pip install -r <requirements file>
